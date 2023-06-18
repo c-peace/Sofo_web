@@ -3,4 +3,4 @@
 ###### Sofo Homepage : https://sofomusic.com
 
 
-![sofomusic com_](https://github.com/c-peace/Sofo_web/assets/85606158/0a79d39c-c56b-4f6d-80b4-548ec6321298)
+![Group 146](https://github.com/c-peace/Sofo_web/assets/85606158/2ba7bb1a-430d-4315-822c-87d96b1129f7)
