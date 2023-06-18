@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sofo - 찬양팀 인도자를 위한</title>
+    <link rel="stylesheet" href="Sofo/style.css">
+    <link rel="icon" href="Sofo/Assets/Sofo.png" type="image/icon type">
+  </head>
+  <body>
+    <nav>
+        <h1 id="logo">Sofo</h1>
+        <div id="btn_tab">
+            <h1><span style="color: #333333;">Intro</span></h1>
+            <h1 onclick="goGoal()">Goal</h1>
+            <h1 onclick="goSolution()">Solution</h1>
+            <h1 onclick="goVision()">Vision</h1>
+            <div id="sofo_linkbox" onclick="location.href = 'https://sofomusic.com'">
+              <h1>Go Sofo</h1>
+            </div>
+        </div>
+    </nav>
+
+    <a id="top" onclick="goIntro()">UP</a>
+
+    <div class="page">
+      <img src="Sofo/Assets/sofo_preview.png" id="sofo_preview">
+      <p id="intro_text">찬양팀 인도자들이 세션과 편하게 소통할 수 있도록<br>
+        돕기 위해 만들어진 서비스 입니다.</p>
+    </div>
+
+    <div class="page">
+      <h1 id="sofo_goal">Sofo Goal</h1>
+      <h1 id="sofo_goaltext">찬양팀 인도자가<br>
+        세션들과 편하게 소통하도록<br>
+        돕는 것이 목표입니다.</h1>
+      <p id="sofo_goalspeak">Sofo CEO</p>
+    </div>
+
+    <div class="page">
+      <div id="solution_box">
+        <h1 id="sofo_solution">Solution</h1>
+        <img src="Sofo/Assets/sofo_solution.png" id="sofo_solutionimg">
+        <div id="solution_text">
+          <h1>SongForm이 악보에</h1>
+          <h2>리더가 SongForm에 대해 공지 및 재확인하는 과정이 사라집니다.<br>
+            합주 시 SongForm을 잊지 않게 됩니다.</h2>
+          <div style="height: 40px;"></div>
+          <h1>Flag를 통한 효율적인 소통 시스템</h1>
+          <h2>Flag(In - A - B - O)를 통해 리더와 세션들이 신속 정확하게 소통할 수 있고<br>
+            합주 & 연습 시 흐름(flow)를 방해하지 않도록 돕습니다.</h2>
+          <div style="height: 40px;"></div>
+          <h1>우리 찬양팀만의 악보로</h1>
+          <h2>찬양팀 내 원활한 소통을 만들어 낼 수 있습니다.</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <h1 id="sofo_vision">Vision</h1>
+      <h1 id="sofo_visiontext">찬양팀 내 효율적인 체계와<br>
+        더 나은 소통을 이끌어내는 도구를 만들어<br>
+        좋은 가치를 전달합니다.</h1>
+      <p id="sofo_visionspeak">Choi Peace</p>
+    </div>
+
+    <div class="page" id="go_sofo">
+      <div id="go_sofobox">
+        <img src="Sofo/Assets/sofo_preview.png" id="sofo_preview">
+        <div id="go_sofobox_text">
+          <h1><span style="color: #FFD0A5;">Sofo Score</span>로<br>
+            찬양팀 내 원활한 소통을<br>
+            시작하세요!</h1>
+          <p onclick="location.href ='https://sofomusic.com'">Sofo Score 제작하기 ></p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <h1>Sofo CEO | Choi Peace</h1>
+    </footer>
+
+
+    <script src="Sofo/index.js"></script>
+  </body>
+</html>
