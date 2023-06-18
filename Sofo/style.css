@@ -228,20 +228,34 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1040px;
+    width: 870px;
+}
+
+#sofo_preview2 {
+    width: 348px;
+    height: 493px;
+    border: 2px solid var(--color-coral);
+    border-radius: 10px;
+    box-shadow: 0 6px 4px 0 var(--color-coral);
+    transition: all 400ms;
+}
+
+#sofo_preview2:hover {
+    transform: translateY(-10px);
+    transform: scale(104%);
 }
 
 #go_sofobox_text h1 {
-    font-size: 60px;
+    font-size: 46px;
     color: white;
 }
 
 #go_sofobox_text p {
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 20px;
     color: var(--color-coral-link);
     transition: all 200ms;
-    width: 298px;
+    width: 200px;
 }
 
 #go_sofobox_text p:hover {
