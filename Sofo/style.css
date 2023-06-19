@@ -88,6 +88,7 @@ nav {
 
 /* go Top */
 #top {
+    z-index: 1;
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -278,4 +279,188 @@ footer h1 {
     font-weight: normal;
     font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* mobile version */
+@media (max-width: 900px) {
+
+    * {
+        overflow-x: hidden;
+    }
+
+    /* nav */
+    nav {
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo {
+        margin: 0;
+        color: var(--color-logo);
+        font-size: 30px;
+    }
+
+    #btn_tab {
+        display: none;
+    }
+
+    /* go Top */
+    #top {
+        display: none;
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        font-size: 18px;
+        padding: 6px 8px;
+        border-radius: 4px;
+        color: var(--color-coral);
+        transition: all 400ms;
+        border: 1px solid var(--color-coral);
+        box-shadow: 0 4px 4px var(--color-coral);
+    }
+
+    #top:hover {
+        transform: translateY(-6px);
+    }
+
+    /* page */
+    .page {
+        margin-top: 60px;
+        margin-bottom: 300px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* intro */
+    #sofo_preview {
+        width: 174px;
+        height: 247px;
+        border: 1px solid var(--color-coral);
+        border-radius: 5px;
+        box-shadow: 0 3px 2px 0 var(--color-coral);
+        transition: all 400ms;
+    }
+
+    #sofo_preview:hover {
+        transform: scale(104%);
+    }
+
+    #intro_text {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 14px;
+        color: var(--color-black);
+    }
+
+    /* goal */
+    #sofo_goal {
+        color: var(--color-logo);
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    #sofo_goaltext {
+        color: var(--color-black);
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #sofo_goalspeak {
+        color: var(--color-black);
+        font-size: 18px;
+    }
+
+    /* solution */
+    #solution_box {
+        position:static;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    #sofo_solution {
+        color: var(--color-puple);
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    #sofo_solutionimg {
+        width: 215px;
+        height: 305px;
+        border: 1px solid var(--color-puple);
+        border-radius: 5px;
+        box-shadow: 0 3px 2px 0 var(--color-puple);
+    }
+
+    #solution_text {
+        background-color: white;
+        box-shadow: 0 0 2px 2px white;
+        position: static;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    #solution_text h1 {
+        color: var(--color-black);
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+
+    #solution_text h2 {
+        text-align: center;
+        color: var(--color-black);
+        font-size: 10px;
+        font-weight: normal;
+        line-height: 15px;
+    }
+
+
+    /* vision */
+    #sofo_vision {
+        color: var(--color-blue);
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    #sofo_visiontext {
+        color: var(--color-black);
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #sofo_visionspeak {
+        color: var(--color-black);
+        font-size: 18px;
+    }
+
+    /* go_sofo */
+    #go_sofo {
+        display: none;
+    }
+
+    /* footer */
+    footer {
+        background-color: var(--color-black);
+        color: rgb(214, 214, 214);
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer h1 {
+        font-weight: normal;
+        font-size: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
 }
