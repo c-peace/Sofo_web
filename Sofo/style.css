@@ -126,8 +126,11 @@ nav {
 }
 
 #sofo_preview:hover {
-    transform: translateY(-10px);
     transform: scale(104%);
+}
+
+#url {
+    display: none;
 }
 
 #intro_text {
@@ -290,7 +293,7 @@ footer h1 {
 
     /* nav */
     nav {
-        margin-top: 16px;
+        margin-top: 1rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -299,7 +302,7 @@ footer h1 {
     #logo {
         margin: 0;
         color: var(--color-logo);
-        font-size: 30px;
+        font-size: 2rem;
     }
 
     #btn_tab {
@@ -309,26 +312,12 @@ footer h1 {
     /* go Top */
     #top {
         display: none;
-        position: fixed;
-        bottom: 40px;
-        right: 40px;
-        font-size: 18px;
-        padding: 6px 8px;
-        border-radius: 4px;
-        color: var(--color-coral);
-        transition: all 400ms;
-        border: 1px solid var(--color-coral);
-        box-shadow: 0 4px 4px var(--color-coral);
-    }
-
-    #top:hover {
-        transform: translateY(-6px);
     }
 
     /* page */
     .page {
-        margin-top: 60px;
-        margin-bottom: 300px;
+        margin-top: 4rem;
+        margin-bottom: 26rem;
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
@@ -337,43 +326,43 @@ footer h1 {
 
     /* intro */
     #sofo_preview {
-        width: 174px;
-        height: 247px;
+        width: 13.4rem;
+        height: 19rem;
         border: 1px solid var(--color-coral);
-        border-radius: 5px;
+        border-radius: 0.4rem;
         box-shadow: 0 3px 2px 0 var(--color-coral);
         transition: all 400ms;
     }
 
     #sofo_preview:hover {
-        transform: scale(104%);
+        transform: none;
     }
 
     #intro_text {
-        margin-top: 30px;
+        margin-top: 2rem;
         text-align: center;
-        font-size: 14px;
+        font-size: 1rem;
         color: var(--color-black);
     }
 
     /* goal */
     #sofo_goal {
         color: var(--color-logo);
-        font-size: 30px;
+        font-size: 2rem;
         font-weight: bold;
-        margin-bottom: 20px;
+        margin-bottom: 1rem;
     }
 
     #sofo_goaltext {
         color: var(--color-black);
-        font-size: 26px;
+        font-size: 1.8rem;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 1rem;
     }
 
     #sofo_goalspeak {
         color: var(--color-black);
-        font-size: 18px;
+        font-size: 1rem;
     }
 
     /* solution */
@@ -386,38 +375,37 @@ footer h1 {
 
     #sofo_solution {
         color: var(--color-puple);
-        font-size: 30px;
-        margin-bottom: 10px;
+        font-size: 2rem;
+        margin-bottom: 1rem;
     }
 
     #sofo_solutionimg {
-        width: 215px;
-        height: 305px;
+        width: 13.4rem;
+        height: 19rem;
         border: 1px solid var(--color-puple);
-        border-radius: 5px;
+        border-radius: 0.4rem;
         box-shadow: 0 3px 2px 0 var(--color-puple);
     }
 
     #solution_text {
-        background-color: white;
-        box-shadow: 0 0 2px 2px white;
         position: static;
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
-        margin-top: 40px;
+        margin-top: 3rem;
     }
 
     #solution_text h1 {
         color: var(--color-black);
-        font-size: 20px;
+        font-size: 1.4rem;
         margin-bottom: 4px;
     }
 
     #solution_text h2 {
+        margin: 0;
         text-align: center;
         color: var(--color-black);
-        font-size: 10px;
+        font-size: 0.6rem;
         font-weight: normal;
         line-height: 15px;
     }
@@ -426,21 +414,21 @@ footer h1 {
     /* vision */
     #sofo_vision {
         color: var(--color-blue);
-        font-size: 30px;
+        font-size: 2rem;
         font-weight: bold;
-        margin-bottom: 20px;
+        margin-bottom: 1rem;
     }
 
     #sofo_visiontext {
         color: var(--color-black);
-        font-size: 18px;
+        font-size: 1.2rem;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 1rem;
     }
 
     #sofo_visionspeak {
         color: var(--color-black);
-        font-size: 18px;
+        font-size: 1rem;
     }
 
     /* go_sofo */
